@@ -95,3 +95,9 @@ btn-unix:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
   margin: 2rem;
 }
+.bi-hand-thumbs-up-fill:active{
+  color:rgb(19, 18, 18)
+}
+.bi-emoji-heart-eyes-fill:active{
+  color:rgb(207, 76, 76)
+}

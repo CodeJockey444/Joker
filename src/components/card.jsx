@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/main.css";
 
 class Card extends React.Component {
   render() {
@@ -24,16 +25,11 @@ class Card extends React.Component {
             onClick={(e) => {
               e.preventDefault();
             }}
+            id="#thumbsDown"
           >
-            <i className="bi bi-hand-thumbs-down-fill"></i>
-          </a>
-          <a
-            href="/"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
-          >
-            <i className="bi bi-emoji-heart-eyes-fill"></i>
+            <i
+              className="bi bi-emoji-heart-eyes-fill"
+            ></i>
           </a>
         </div>
       </div>
